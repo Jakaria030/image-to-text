@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    text-align: center;
+    padding: 50px;
+}
+
+button{
+    cursor: pointer;
+}
+
+#out-put{
+    text-align: left;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Text To Text</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Tessecract CDN v5 -->
+    <script src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js'></script>
+</head>
+<body>
+    
+    <div class="container">
+        <input id="image-input" type="file" accept="image/*">
+        <button onclick="extractText()">Extract Text</button>
+        <p id="out-put"></p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
